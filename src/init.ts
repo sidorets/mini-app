@@ -46,4 +46,5 @@ export function init(debug: boolean): void {
   // Define components-related CSS variables.
   miniApp.bindCssVars();
   themeParams.bindCssVars();
+
 }
