@@ -3,6 +3,7 @@ import type { FC } from 'react';
 
 import { Link } from '@/components/Link/Link.tsx';
 import { Page } from '@/components/Page.tsx';
+import { FullscreenButton } from '@/components/FullscreenButton/FullscreenButton.tsx';
 
 import tonSvg from './ton.svg';
 
@@ -22,6 +23,7 @@ export const IndexPage: FC = () => {
               TON Connect
             </Cell>
           </Link>
+          <FullscreenButton />
         </Section>
         <Section
           header="Application Launch Data"
